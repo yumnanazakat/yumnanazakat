@@ -86,7 +86,12 @@
 
   // CV download placeholder
   function downloadCV() {
-    alert('CV download will be available once linked to your actual CV file.');
+    const link = document.createElement("a");
+    link.href = "Yumna%20Nazakat.pdf";
+    link.download = "Yumna Nazakat.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   // Contact form
