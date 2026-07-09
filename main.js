@@ -87,8 +87,8 @@
   // CV download placeholder
   function downloadCV() {
     const link = document.createElement("a");
-    link.href = "Yumna%20Nazakat.pdf";
-    link.download = "Yumna Nazakat.pdf";
+    link.href = "Yumna%20Nazakat-CV.pdf";
+    link.download = "Yumna Nazakat-CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
